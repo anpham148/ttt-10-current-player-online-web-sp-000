@@ -8,7 +8,7 @@ def turn_count(board1)
   counter
 end
 
-def current_player(board1)
+def current_player(board)
   character = ""
   if turn_count(board1) % 2 != 0
     character = "X"
